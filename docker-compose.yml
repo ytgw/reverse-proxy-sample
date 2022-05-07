@@ -2,6 +2,8 @@ version: '3'
 services:
   flask:
     build: ./flask/
+  python:
+    build: ./python/
   nginx:
     build: ./nginx/
     ports:
